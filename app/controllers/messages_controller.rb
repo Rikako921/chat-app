@@ -11,7 +11,8 @@ class MessagesController < ApplicationController
       redirect_to room_messages_path(@room)
     else
       render :index, status: :unprocessable_entity
-    end  end
+    end
+    end
 
   private
 
